@@ -1,0 +1,172 @@
+.gras
+{
+    font-weight: bold;
+}
+
+.italic
+{
+    font-style: italic;
+}
+
+.right
+{
+    text-align: right;
+}
+
+body,html
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+#body
+{
+    margin-right: 40px;
+    margin-left: 40px;
+    z-index: 0;
+
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 100%;
+}
+
+#body a:link, #body a:visited
+{
+    color: blue;
+}
+
+/*Le style du header*/
+header
+{
+    z-index: 0;
+    position: relative;
+    top: 0px;
+    margin: 0px;
+    padding-top: 20px;
+    border: none;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-image: url("/media/Header.jpg");
+
+}
+
+/*Le style du footer*/
+footer
+{
+    z-index: 0;
+    position: relative;
+    bottom: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    width: 100%;
+    height: 300px;
+    background-image: url("/media/Header.jpg");
+
+    display: flex;
+}
+
+footer > nav
+{
+    text-align: center;
+    width: 50%;
+}
+
+footer a:link
+{
+    color: white;
+}
+
+footer a:visited
+{
+    color: #ffffff;
+}
+
+footer h4
+{
+    font-size: 20px;
+}
+
+/*Le style du bouton de retour au début*/
+#ret
+{
+    position: fixed;
+    right: 0px;
+    bottom: 10px;
+    z-index: 1;
+    background-color: black;
+
+}
+
+/*Le style pour la barre de navigation*/
+#som
+{
+    line-height: 25px;
+    padding:25px;
+    font-size: 17px;
+
+    position: sticky;
+    top: 0px;
+    height:500px;
+}
+
+.so
+{
+    position: relative;
+    left: 20px;
+    font-size: 16px;
+}
+
+#som a:link, #som a:visited
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+#som a:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*Le style du texte lui-même*/
+#text
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#text p
+{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+#text > section
+{
+    margin: 25px;
+}
+
+.entrée
+{
+    display: block;
+    margin: auto;
+}
+
+.righty
+{
+    margin: 17px;
+    float: right;
+    width: 150px;
+    height: 130px;
+}
+
+.lefty
+{
+    margin: 17px;
+    float: left;
+    width: 150px;
+    height: 130px;
+}
